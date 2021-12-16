@@ -41,6 +41,8 @@ function setup() {
   ground =new Ground(700,390,1500,20);
 
   
+  ball = createImg('texture.png')
+  
   ball = Bodies.circle(100,200,20,ball_options);
   World.add(world,ball);
   
