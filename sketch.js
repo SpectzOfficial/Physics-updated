@@ -45,7 +45,7 @@ function setup() {
   
   ball = Bodies.circle(100,200,20,ball_options);
   World.add(world,ball);
-  ball = loadImg('texture.PNG')
+  
 
   
   con = Matter.Constraint.create({
